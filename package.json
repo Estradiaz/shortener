@@ -1,0 +1,21 @@
+{
+  "name": "shortener",
+  "version": "1.0.0",
+  "description": "url shortener freecodecamp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "shortener"
+  },
+  "author": "Samuel Ueberle",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.1",
+    "mongodb": "^2.2.31"
+  }
+}
